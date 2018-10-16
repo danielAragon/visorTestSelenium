@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [VisorTestSuite]">
+  <test thread-count="5" name="CategoriaTest(failed)">
+    <classes>
+      <class name="pe.com.test.seleniumwd.CategoriaTest">
+        <methods>
+          <include name="insertarCategoria_Criterio01"/>
+          <include name="antesDeCadaTest"/>
+        </methods>
+      </class> <!-- pe.com.test.seleniumwd.CategoriaTest -->
+    </classes>
+  </test> <!-- CategoriaTest(failed) -->
+</suite> <!-- Failed suite [VisorTestSuite] -->
